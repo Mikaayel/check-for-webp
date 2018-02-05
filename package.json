@@ -1,0 +1,39 @@
+{
+	"name": "check-for-webp",
+	"version": "1.0.1",
+	"description": "client side browser check for webp support",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Mikaayel/check-for-webp"
+	},
+	"bugs": "https://github.com/Mikaayel/check-for-webp/issues",
+	"author": {
+		"name": "Mika Rehman",
+		"url": "https://www.mikarehman.com"
+	},
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "webpack",
+		"watch": "webpack --watch",
+		"production": "webpack -p"
+	},
+	"keywords": [
+		"webp",
+		"check webp support",
+		"webp support"
+	],
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.0",
+		"babel-eslint": "^8.2.1",
+		"babel-loader": "^7.1.2",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-es2015": "^6.24.1",
+		"eslint": "^4.16.0",
+		"eslint-loader": "^1.9.0",
+		"eslint-plugin-react": "^7.6.1",
+		"webpack": "^3.10.0"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"rules": {
+		"strict": 0,
+		"semi": [
+			"error",
+			"always"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"react/jsx-uses-react": 2,
+		"react/jsx-uses-vars": 2,
+		"react/react-in-jsx-scope": 2,
+		"no-unused-vars": 2
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaFeatures": "module"
+	},
+	"plugins": [
+		"react"
+	]
+}
